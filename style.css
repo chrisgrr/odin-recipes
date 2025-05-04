@@ -1,0 +1,47 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "Courier New", monospace;
+    font-size: 2.5em;
+}
+
+.recipes {
+   margin: 0 auto;
+   text-align: center;
+}
+
+.recipes a {
+    font-family: "Verdana", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: yellow;
+}
+
+li {
+    display: inline-block;
+    background-color: azure;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    list-style-type: none;
+    line-height: 300px;
+    text-align: center;
+}
+
+li:nth-child(1) {
+    background: url("./images/easy-lasagna.jpg");
+    background-size: 300px 300px;
+}
+
+li:nth-child(2) {
+    background: url("./images/moroccan-chicken-tagine.jpg");
+    background-size: 300px 300px;
+}
+
+li:nth-child(3) {
+    background: url("./images/wasabi-shrimp-sushi-cups.jpg");
+    background-size: 300px 300px;
