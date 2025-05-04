@@ -33,15 +33,15 @@ li {
 }
 
 li:nth-child(1) {
-    background: url("./images/easy-lasagna.jpg");
+    background: url("../images/easy-lasagna.jpg");
     background-size: 300px 300px;
 }
 
 li:nth-child(2) {
-    background: url("./images/moroccan-chicken-tagine.jpg");
+    background: url("../images/moroccan-chicken-tagine.jpg");
     background-size: 300px 300px;
 }
 
 li:nth-child(3) {
-    background: url("./images/wasabi-shrimp-sushi-cups.jpg");
+    background: url("../images/wasabi-shrimp-sushi-cups.jpg");
     background-size: 300px 300px;
